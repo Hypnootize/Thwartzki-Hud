@@ -16,26 +16,6 @@
 		//"subimage" "glyph_workshop_view" //bigger magnifying glass lense
 		"OnlyAtMenu" "0"
 	} 
-	"CoopMiniButton"
-	{
-		"command" "play_mvm"
-		"OnlyAtMenu" "0"
-		"tooltip" "MVM"//"Mann vs Machine"
-	}
-	
-	"CompMiniButton"
-	{
-		"command" "play_competitive"
-		"OnlyAtMenu" "0"
-		"tooltip" "COMPETITIVE"//"Matchmaking"
-	}
-	
-	"QuickPlayMiniButton"
-	{
-		"command" "play_casual"
-		"OnlyAtMenu" "0"
-		"tooltip" "CASUAL"
-	}
 	"CreateServerButton"
 	{
 		"label" "#GameUI_GameMenu_CreateServer" 
@@ -163,7 +143,7 @@
 		
 	}
 	
-		"AdvancedOptionsStripButton"
+	"AdvancedOptionsStripButton"
 	{
 		"command"		"opentf2options"
 		"OnlyInGame"	"0"
@@ -171,5 +151,4 @@
 		"tooltip"		"Advanced Options"//"#MMenu_AdvOptions"
 		
 	}
-	
 }
