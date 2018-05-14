@@ -1,5 +1,3 @@
-//this is the child object of hudobjectivestatus
-
 "Resource/UI/HudObjectiveTimePanel.res"
 {	
 	"TimePanelBG"
@@ -23,8 +21,7 @@
 
 		if_match
 		{
-			"xpos"		"9999"
-			"visible"	"0"
+			"xpos"			"9999"
 		}
 	}
 	
@@ -44,8 +41,7 @@
 		
 		if_match
 		{
-			"xpos"		"9999"
-			"visible"	"0"
+			"xpos"			"9999"
 		}
 	}
 	
@@ -69,8 +65,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"WaitingForPlayersLabel"
@@ -94,8 +89,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -119,8 +113,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"OvertimeLabel"
@@ -144,8 +137,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	
@@ -170,8 +162,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"SuddenDeathLabel"
@@ -195,8 +186,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	
@@ -221,8 +211,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}	
 	"SetupLabel"
@@ -246,8 +235,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	
@@ -273,8 +261,50 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}	
+	
+	"ServerTimeLimitLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ServerTimeLimitLabel"
+		"xpos"			"29"
+		"ypos"			"26"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"%servertimeleft%"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"wrap"			"0"
+		"font"			"HudFontSmallest"
+		"fgcolor"		"TanLight"
+		
+		if_match
+		{
+			"ypos"		"22"
+		}
+	}	
+	"ServerTimeLimitLabelBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ServerTimeLimitLabelBG"
+		"xpos"			"9999"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"38"
+		"tall"			"13"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"0 0 0 100"
+		
+		if_match
+		{
+			"xpos"	"9999"
+		}
+	}
 }
